@@ -1000,7 +1000,7 @@ Interactive artifact
           formData.append('images', file);
         });
         
-        const response = await fetch('http://localhost:3050/api/analyze', {
+        const response = await fetch('/api/analyze', {
           method: 'POST',
           body: formData
         });
